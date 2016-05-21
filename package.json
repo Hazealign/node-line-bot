@@ -1,0 +1,22 @@
+{
+  "name": "node-line-bot",
+  "version": "1.0.0",
+  "description": "Line Bot API implementation on Node.js.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Hazealign/node-line-bot"
+  },
+  "keywords": [
+    "Bot",
+    "Line Bot",
+    "Line"
+  ],
+  "author": "Haze Lee <hazelee@realignist.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hazealign/node-line-bot/issues"
+  }, "dependencies": {
+    "request": "*"
+  }
+}
