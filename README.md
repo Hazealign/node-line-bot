@@ -8,17 +8,17 @@ Check REST API Documentation in [Here](https://developers.line.me/bot-api/api-re
 **Example**
 
 ```javascript
-	var linebot = require('node-line-bot');
-	linebot.initialize(require('./settings.json'));
+var linebot = require('node-line-bot');
+linebot.initialize(require('./settings.json'));
 
-	co(function *() {
-		let result = yield linebot.sendMessage(to, content);
-		let result2 = yield linebot.sendMessages(to, messages);
-		let result3 = yield linebot.getMessageContent(messageId);
-		let result4 = yield linebot.getProfile(mid);
-	}, function (err) {
+co(function *() {
+	let result = yield linebot.sendMessage(to, content);
+	let result2 = yield linebot.sendMessages(to, messages);
+	let result3 = yield linebot.getMessageContent(messageId);
+	let result4 = yield linebot.getProfile(mid);
+}, function (err) {
 		console.error(err);
-	});
+});
 ```
 
 ## License
